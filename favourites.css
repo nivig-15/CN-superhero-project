@@ -1,0 +1,53 @@
+body{
+    background-image: url("./assets/favourite-bg.avif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: rgba(24, 23, 23, 0.5);
+    height:100px;
+    margin-top:-10px;
+    margin-left: -5px;
+    padding:15px;
+  }
+#title{
+    font-size: 40px;
+    font-weight: bold;
+    margin:auto;
+    padding-top:5px;
+    color:aliceblue;
+  }
+#link{
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+  }
+#favlistitem{
+    display: flex;
+    align-items: flex-start;
+}
+
+#outerbox{
+    border: 1px solid black;
+    margin: 10px;
+}
+#innerbox {
+    margin: 10px;
+}
+h5{
+    margin-left: 10px;
+    color:whitesmoke;
+    font-weight: 600;
+}
+button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#innerbox img {
+    height:300px;
+    width:200px;
+}
+
+  
